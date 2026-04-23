@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Job Application Form</title>
+    <title>Job App Form</title>
     <style>
         body { font-family: sans-serif; padding: 20px; }
         .form-group { margin-bottom: 15px; }
