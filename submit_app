@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Application Form</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; font-weight: bold; }
+        input, select { width: 100%; padding: 8px; }
+    </style>
+</head>
+<body>
+    <h2>Job Application</h2>
+    <form action="#" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+            <label>Name: <input type="text" name="name" required></label>
+        </div>
+        <div class="form-group">
+            <label>Email: <input type="email" name="email" required></label>
+        </div>
+        <div class="form-group">
+            <label>Resume (PDF): <input type="file" name="resume" accept=".pdf"></label>
+        </div>
+        <button type="submit">Submit Application</button>
+    </form>
+</body>
+</html>
+
